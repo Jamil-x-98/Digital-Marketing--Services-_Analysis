@@ -1,0 +1,94 @@
+Exploratory Data Analysis of Digital Marketing Services
+===========================================
+First few rows:
+         Date                 Product Region   Customer_Type  Quantity  \
+0  2024-06-03       Content Marketing   West      Enterprise         2   
+1  2024-04-18                     SEO   East      Enterprise         6   
+2  2024-04-13       Content Marketing   East  Small Business         3   
+3  2024-11-02  Social Media Marketing   East  Small Business         4   
+4  2024-12-05                     SEO  North  Small Business         1   
+
+     Price  Discount   Revenue  
+0  3932.40      0.06   7392.91  
+1  3524.70      0.22  16495.60  
+2  3159.68      0.24   7204.07  
+3  4755.15      0.05  18069.57  
+4   770.57      0.25    577.93  
+Summary statistics:
+          Quantity        Price     Discount       Revenue
+count  1000.000000  1000.000000  1000.000000   1000.000000
+mean     10.585000  2542.900950     0.148010  22634.089510
+std       5.869517  1415.933664     0.088187  19368.193419
+min       1.000000   101.610000     0.000000    205.350000
+25%       5.000000  1351.185000     0.070000   7082.305000
+50%      10.000000  2493.530000     0.145000  17896.840000
+75%      16.000000  3773.260000     0.222500  32597.600000
+max      20.000000  4991.940000     0.300000  96214.050000
+Data cleaning Results:
+Missing values:
+Date             0
+Product          0
+Region           0
+Customer_Type    0
+Quantity         0
+Price            0
+Discount         0
+Revenue          0
+dtype: int64
+Data cleaning Results:
+Missing values:
+Date             0
+Product          0
+Region           0
+Customer_Type    0
+Quantity         0
+Price            0
+Discount         0
+Revenue          0
+dtype: int64
+Data cleaning Results:
+Missing values:
+Date             0
+Product          0
+Region           0
+Customer_Type    0
+Quantity         0
+Price            0
+Discount         0
+Revenue          0
+dtype: int64
+Data cleaning Results:
+Missing values:
+Date             0
+Product          0
+Region           0
+Customer_Type    0
+Quantity         0
+Price            0
+Discount         0
+Revenue          0
+dtype: int64
+Number of duplicates Dropped: 0
+Number of duplicates Dropped: 0
+Total Revenue: $2542900.95
+Total Revenue: $2542900.95
+Total Revenue: $22634089.51
+Average Price per Customer Type:
+Customer_Type
+Enterprise        2556.709788
+Small Business    2530.556686
+Name: Price, dtype: float64
+Total Services Provided by Region:
+Region
+East     256
+South    252
+West     246
+North    246
+Name: count, dtype: int64
+Total Revenue by Region:
+Region
+East     653859.45
+North    639580.33
+South    665047.80
+West     584413.37
+Name: Price, dtype: float64
